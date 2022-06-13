@@ -8,6 +8,9 @@ temp = pathlib.PosixPath
 plt = platform.system()
 if plt == 'Windows': pathlib.PosixPath = pathlib.WindowsPath
 
+# MODEL_URL = "https://drive.google.com/uc?export=download&id=1cH5nY1T5oykEcLyWtjA8Wv-Xn8vO20BS"
+# urllib.request.urlretrieve(MODEL_URL, "model.pkl")
+
 path = Path()
 path.ls(file_exts='.pkl')
 
