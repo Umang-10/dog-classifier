@@ -30,17 +30,17 @@ def on_click_classify(image):
     
 
 st.title('Dog Classifier')
-st.header('Choose/Click your Dog!!')
-image = st.file_uploader(label='Choose your dog!', type=['png', 'jpg'], key='img', help='upload an img of dog')
+st.header('Choose your Dog!!')
+image = st.file_uploader(label=' ', type=['png', 'jpg'], key='img', help='upload an img of dog')
 
-picture = st.camera_input(label='Click your dog!')
+# picture = st.camera_input(label='Click your dog!')
 
 
 # btn_run.on_change(on_click_classify)
 btn_run = st.button(label='Classify')
 if btn_run:
-    if image: on_click_classify(image)
-    else: on_click_classify(picture)
+    on_click_classify(image)
+    
     
 st.markdown('#### Created by **Umang Kaushik**')
 st.markdown('##### **[Github](https://github.com/Umang-10)**')
