@@ -4,7 +4,7 @@ a simple web dog classifier using fastai and streamlit
 
 ## [PREVIEW](https://share.streamlit.io/umang-10/dog-classifier/main/classifier.py)
 
-### classifier.ipynb
+### dog_breed_model.ipynb
 This is the file where the real magic is happening.
 With the help of the FastAI library i have trained a CNN model
 on Stanford Dogs Dataset (from Kaggle).
